@@ -1,5 +1,5 @@
 //Author: Ambadas Hibare
-//Compilation: g++ -o ipv4_Test ipv4_Test.cpp -Wall -Werror
+//Compilation: g++ -o IPv4_Test IPv4_Test.cpp -Wall -Werror
 
 ///////////////////////////////////////////
 // includes
@@ -14,19 +14,21 @@
 // defines
 ///////////////////////////////////////////
 /*
-#define (unsigned char)		u_8
-#define (unsigned short)	u_16
-#define (unsigned int)		u_32
-#define char				s_8
-#define short				s_16
-#define int					s_32
+#define u_8  unsigned char
+#define u_16 unsigned short
+#define u_32 unsigned int
+#define s_8  char				
+#define s_16 short				
+#define s_32 int					
 */
-typedef unsigned char		u_8;
-typedef unsigned short		u_16;
-typedef unsigned int		u_32;
-typedef char				s_8;
-typedef short				s_16;
-typedef int					s_32;
+///*
+typedef unsigned char	u_8;
+typedef unsigned short	u_16;
+typedef unsigned int	u_32;
+typedef char			s_8;
+typedef short			s_16;
+typedef int				s_32;
+//*/
 
 ///////////////////////////////////////////
 // foward declarations
